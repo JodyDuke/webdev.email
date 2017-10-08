@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.webdev\.email$ [NC]
+RewriteRule ^(.*)$ https://www.webdev.email/$1 [R=301,L]

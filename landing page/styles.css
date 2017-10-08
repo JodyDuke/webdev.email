@@ -1,0 +1,108 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	padding: 0;
+	margin: 0 0 60px 0;
+}
+
+h1 {
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h4 {
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.blue {
+	color: #00B2B2;
+}
+
+#mc_embed_signup {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 14px;
+	background:#fff; 
+	clear:left;  
+	width:100%;
+}
+
+.image-centered {
+	text-align: center;
+}
+
+.image-centered img{
+	max-width: 550px;
+	max-height: 80vh;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #ffffff;
+}
+
+.page-links {
+	text-align: right;
+	padding: 0px 5px;
+}
+
+.page-links .link {
+	text-decoration: underline;
+	color: #00B2B2; 
+	padding: 0px 5px;
+	transition: all 0.23s ease-in-out 0s;
+}
+
+.page-links .link:hover {
+	color:#046969; 
+	cursor:pointer;
+}
+
+.last-weeks-links {
+	background-color: #ED7834; 
+	text-decoration: none;
+	padding: 5px 8px;
+	margin-right: 8px;
+	color: white;
+	transition: all 0.23s ease-in-out 0s;
+}
+
+.last-weeks-links:hover {
+	background-color:#046969; 
+	color: white;
+	cursor:pointer;
+}
+
+
+
+@media screen and (min-width: 768px){
+ .header-container, .image-centered {
+ 	height: 90vh;
+ 	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+ }
+
+}
+
+@media screen and (max-width: 768px){
+	.image-centered img {
+		max-width: 90vw;
+	}
+}
